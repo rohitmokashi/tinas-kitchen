@@ -1,0 +1,48 @@
+# Python / Django
+backend/.venv/
+backend/.venv/**
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/**/*.pyo
+backend/**/*.pyd
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/*.sqlite3
+backend/db.sqlite3
+backend/.env
+backend/.env.*
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# Local data / generated
+*.local
+coverage/
